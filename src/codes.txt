@@ -1,0 +1,64 @@
+// 200 (OK) = requisição bem sucedida
+// 201 (Created) = requisição bem sucedida e algo foi criado
+// 204 (No Content) = requisição bem sucedida, sem conteúdo no corpo da resposta
+// 400 (Bad Request) = o servidor não entendeu a requisição pois está com uma sintaxe/formato inválido
+// 401 (Unauthorized) = o usuário não está autenticado (logado)
+// 403 (Forbidden) = o usuário não tem permissão de acessar o recurso solicitado
+// 404 (Not Found) = o servidor não pode encontrar o recurso solicitado
+// 500 (Internal Server Error) = erro inesperado do servidor
+
+
+
+
+//Simulação servidor
+
+[
+	{
+		"numero": "1",
+		"saldo": 0,
+		"usuario": {
+			"nome": "Foo Bar2",
+			"cpf": "00011122231",
+			"data_nascimento": "2021-03-15",
+			"telefone": "71999998888",
+			"email": "foo1@bar.com",
+			"senha": "1234"
+		}
+	},
+	{
+		"numero": "2",
+		"saldo": 0,
+		"usuario": {
+			"nome": "Foo Bar",
+			"cpf": "00011122230",
+			"data_nascimento": "2021-03-15",
+			"telefone": "71999998888",
+			"email": "foo@bar.com",
+			"senha": "12345"
+		}
+	},
+	{
+		"numero": "3",
+		"saldo": 0,
+		"usuario": {
+			"nome": "Foo Bar1",
+			"cpf": "00011122232",
+			"data_nascimento": "2021-03-15",
+			"telefone": "71999998888",
+			"email": "foo2@bar.com",
+			"senha": "4321"
+		}
+	},
+	{
+		"numero": "4",
+		"saldo": 0,
+		"usuario": {
+			"nome": "Foo Bar3",
+			"cpf": "00011122233",
+			"data_nascimento": "2021-03-15",
+			"telefone": "71999998888",
+			"email": "foo3@bar.com",
+			"senha": "54321"
+		}
+	}
+]
